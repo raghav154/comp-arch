@@ -1,0 +1,119 @@
+desc: I1 cache:         32768 B, 64 B, 4-way associative
+desc: D1 cache:         32768 B, 64 B, 4-way associative
+desc: LL cache:         1048576 B, 64 B, 16-way associative
+cmd: ./mm
+events: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw 
+fl=???
+fn=(below main)
+0 63 6 6 19 2 1 25 0 0
+fn=???
+0 615652644 668255 775 232680674 2071 1006 135495280 1500 193
+fn=_Exit
+0 3 1 1 2 0 0 1 0 0
+fn=_IO_default_uflow
+0 4112 2 2 2056 0 0 1028 0 0
+fn=_IO_default_xsputn
+0 3366 3 3 924 0 0 528 6 0
+fn=_IO_do_write
+0 13957 3 3 4105 0 0 2463 0 0
+fn=_IO_doallocbuf
+0 42 3 3 18 0 0 10 0 0
+fn=_IO_file_doallocate
+0 110 9 9 24 3 2 40 1 1
+fn=_IO_file_overflow
+0 44499 10 8 12063 0 0 8915 69 4
+fn=_IO_file_read
+0 2570 2 2 1285 0 0 771 0 0
+fn=_IO_file_setbuf
+0 26 2 2 7 0 0 13 0 0
+fn=_IO_file_stat
+0 20 4 4 8 0 0 8 1 1
+fn=_IO_file_sync
+0 20 3 3 8 0 0 5 0 0
+fn=_IO_file_underflow
+0 13628 9 6 5142 139 2 4371 0 0
+fn=_IO_file_write
+0 32019 5 3 9852 0 0 6568 68 3
+fn=_IO_file_xsputn
+0 20185550 7 6 5767696 4 0 3408202 447 23
+fn=_IO_setb
+0 65 5 5 28 0 0 15 0 0
+fn=_IO_sputbackc
+0 18874368 2 2 8388608 0 0 2097152 0 0
+fn=_IO_switch_to_get_mode
+0 5654 2 2 2056 0 0 1542 0 0
+fn=_IO_vfscanf
+0 222312879 434207 74 75922980 10174 384 39847398 1076 40
+fn=__ctype_init
+0 25 2 2 13 1 0 6 0 0
+fn=__cxa_atexit
+0 16 2 2 5 0 0 7 0 0
+fn=__cxa_finalize
+0 45 5 5 11 1 1 6 0 0
+fn=__fxstat64
+0 26 4 4 10 0 0 6 0 0
+fn=__isoc99_scanf
+0 30408704 6 5 13107200 777 26 6815744 0 0
+fn=__libc_csu_init
+0 21 2 2 6 0 0 6 0 0
+fn=__libc_memalign
+0 630 7 4 159 1 0 150 2 2
+fn=__overflow
+0 14345 2 2 6795 0 0 4530 0 0
+fn=__printf_chk
+0 17301504 7 6 7864320 510 11 3407872 29 1
+fn=__printf_fp
+0 268170071 87 66 79848423 1060 26 50375694 4506 167
+fn=__strtod_internal
+0 9437184 4 2 4194304 30 1 3670016 0 0
+fn=__uflow
+0 11051 9 5 4369 239 7 1285 0 0
+fn=_dl_allocate_tls_init
+0 89 7 7 33 1 0 23 1 0
+fn=_dl_debug_state
+0 2 1 1 2 0 0 0 0 0
+fn=_setjmp
+0 16 1 1 5 0 0 7 0 0
+fn=bsearch
+0 3492 2 2 964 0 0 927 1 1
+fn=calloc
+0 168 4 2 48 0 0 48 1 1
+fn=exit
+0 10 2 2 1 0 0 6 0 0
+fn=free
+0 7340032 4 3 2621440 105 2 1048576 0 0
+fn=isinf
+0 4718592 1 1 1048576 0 0 262144 0 0
+fn=isnan
+0 4194304 3 2 1048576 0 0 262144 0 0
+fn=main
+0 17 1 1 2 1 0 11 3 3
+fn=malloc
+0 198 2 1 54 0 0 90 1 1
+fn=matrix_multiply
+0 1076106257 2 2 268435976 134791421 95824079 134479876 7253853 314514
+fn=memrchr
+0 12 2 2 5 0 0 2 0 0
+fn=mmap
+0 46 2 2 24 0 0 10 0 0
+fn=print_matrix
+0 2101260 4 3 262149 32808 32760 1049603 37 3
+fn=putchar
+0 28160 4 4 11776 0 0 5120 0 0
+fn=read
+0 3084 1 1 1799 0 0 514 0 0
+fn=read_matrix
+0 5249054 2 2 524300 0 0 2097160 66064 65540
+fn=strchrnul
+0 11796480 8 5 2621440 79 1 524288 0 0
+fn=strncasecmp
+0 13 2 2 5 0 0 2 0 0
+fn=strnlen
+0 12 2 2 4 1 1 3 0 0
+fn=vfprintf
+0 72089599 46 32 23330816 913 21 21233665 617 19
+fn=wcslen
+0 11 2 2 4 0 0 2 0 0
+fn=write
+0 9852 1 1 5747 0 0 1642 0 0
+summary: 2386129977 1102783 1107 727736916 134840341 95858331 406115520 7328283 380517

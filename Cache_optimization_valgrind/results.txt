@@ -1,0 +1,159 @@
+/* ----------------Default LRU Replacement ------------------------ */
+
+/* NO CODE CHANGE ----------------------------*/
+==19152== Cachegrind, a cache and branch-prediction profiler
+==19152== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19152== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19152== Command: ./mm
+==19152== 
+==19152== 
+==19152== I   refs:      2,386,129,975
+==19152== I1  misses:        2,360,909
+==19152== LLi misses:            1,036
+==19152== I1  miss rate:          0.09%
+==19152== LLi miss rate:          0.00%
+==19152== 
+==19152== D   refs:      1,133,852,436  (727,736,916 rd   + 406,115,520 wr)
+==19152== D1  misses:      134,680,524  (134,581,954 rd   +      98,570 wr)
+==19152== LLd misses:      134,650,678  (134,552,128 rd   +      98,550 wr)
+==19152== D1  miss rate:          11.8% (       18.4%     +         0.0%  )
+==19152== LLd miss rate:          11.8% (       18.4%     +         0.0%  )
+==19152== 
+==19152== LL refs:         137,041,433  (136,942,863 rd   +      98,570 wr)
+==19152== LL misses:       134,651,714  (134,553,164 rd   +      98,550 wr)
+==19152== LL miss rate:            3.8% (        4.3%     +         0.0%  )
+
+
+/* REGISTER SCALAR ------------------------------*/
+
+==19416== Cachegrind, a cache and branch-prediction profiler
+==19416== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19416== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19416== Command: ./mm
+==19416== 
+==19416== 
+==19416== I   refs:      2,251,649,077
+==19416== I1  misses:        2,360,910
+==19416== LLi misses:            1,037
+==19416== I1  miss rate:          0.10%
+==19416== LLi miss rate:          0.00%
+==19416== 
+==19416== D   refs:        999,634,708  (727,736,916 rd   + 271,897,792 wr)
+==19416== D1  misses:      134,910,407  (134,582,467 rd   +     327,940 wr)
+==19416== LLd misses:      134,880,052  (134,552,127 rd   +     327,925 wr)
+==19416== D1  miss rate:          13.4% (       18.4%     +         0.1%  )
+==19416== LLd miss rate:          13.4% (       18.4%     +         0.1%  )
+==19416== 
+==19416== LL refs:         137,271,317  (136,943,377 rd   +     327,940 wr)
+==19416== LL misses:       134,881,089  (134,553,164 rd   +     327,925 wr)
+==19416== LL miss rate:            4.1% (        4.5%     +         0.1%  )
+
+
+/* MATRIX TRANSPOSE -------------------------------*/
+
+==19379== Cachegrind, a cache and branch-prediction profiler
+==19379== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19379== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19379== Command: ./mm
+==19379== 
+==19379== 
+==19379== I   refs:      2,254,012,477
+==19379== I1  misses:        2,360,909
+==19379== LLi misses:            1,036
+==19379== I1  miss rate:          0.10%
+==19379== LLi miss rate:          0.00%
+==19379== 
+==19379== D   refs:      1,134,375,701  (727,998,548 rd   + 406,377,153 wr)
+==19379== D1  misses:       17,091,436  ( 16,992,865 rd   +      98,571 wr)
+==19379== LLd misses:       17,060,598  ( 16,962,047 rd   +      98,551 wr)
+==19379== D1  miss rate:           1.5% (        2.3%     +         0.0%  )
+==19379== LLd miss rate:           1.5% (        2.3%     +         0.0%  )
+==19379== 
+==19379== LL refs:          19,452,345  ( 19,353,774 rd   +      98,571 wr)
+==19379== LL misses:        17,061,634  ( 16,963,083 rd   +      98,551 wr)
+==19379== LL miss rate:            0.5% (        0.5%     +         0.0%  )
+
+
+
+
+
+
+
+
+/* -------------------Random Replacement Results--------------------------------*/
+
+/* NO CODE CHANGE -------------------------- */
+
+==19255== Cachegrind, a cache and branch-prediction profiler
+==19255== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19255== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19255== Command: ./mm
+==19255== 
+==19255== 
+==19255== I   refs:      2,386,129,977
+==19255== I1  misses:        1,102,783
+==19255== LLi misses:            1,107
+==19255== I1  miss rate:          0.04%
+==19255== LLi miss rate:          0.00%
+==19255== 
+==19255== D   refs:      1,133,852,436  (727,736,916 rd   + 406,115,520 wr)
+==19255== D1  misses:      142,168,624  (134,840,341 rd   +   7,328,283 wr)
+==19255== LLd misses:       96,238,848  ( 95,858,331 rd   +     380,517 wr)
+==19255== D1  miss rate:          12.5% (       18.5%     +         1.8%  )
+==19255== LLd miss rate:           8.4% (       13.1%     +         0.0%  )
+==19255== 
+==19255== LL refs:         143,271,407  (135,943,124 rd   +   7,328,283 wr)
+==19255== LL misses:        96,239,955  ( 95,859,438 rd   +     380,517 wr)
+==19255== LL miss rate:            2.7% (        3.0%     +         0.0%  )
+
+/* REGISTER SCALAR -----------------------------*/
+
+==19275== Cachegrind, a cache and branch-prediction profiler
+==19275== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19275== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19275== Command: ./mm
+==19275== 
+==19275== 
+==19275== I   refs:      2,251,649,079
+==19275== I1  misses:        1,108,107
+==19275== LLi misses:            1,105
+==19275== I1  miss rate:          0.04%
+==19275== LLi miss rate:          0.00%
+==19275== 
+==19275== D   refs:        999,634,708  (727,736,916 rd   + 271,897,792 wr)
+==19275== D1  misses:      135,054,006  (134,717,378 rd   +     336,628 wr)
+==19275== LLd misses:       89,385,633  ( 89,149,994 rd   +     235,639 wr)
+==19275== D1  miss rate:          13.5% (       18.5%     +         0.1%  )
+==19275== LLd miss rate:           8.9% (       12.2%     +         0.0%  )
+==19275== 
+==19275== LL refs:         136,162,113  (135,825,485 rd   +     336,628 wr)
+==19275== LL misses:        89,386,738  ( 89,151,099 rd   +     235,639 wr)
+==19275== LL miss rate:            2.7% (        2.9%     +         0.0%  )
+
+/* MATRIX TRANSPOSE ------------------------------*/
+
+==19285== Cachegrind, a cache and branch-prediction profiler
+==19285== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et al.
+==19285== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==19285== Command: ./mm
+==19285== 
+==19285== 
+==19285== I   refs:      2,254,012,479
+==19285== I1  misses:        1,109,864
+==19285== LLi misses:            1,094
+==19285== I1  miss rate:          0.04%
+==19285== LLi miss rate:          0.00%
+==19285== 
+==19285== D   refs:      1,134,375,701  (727,998,548 rd   + 406,377,153 wr)
+==19285== D1  misses:       19,230,399  ( 19,081,047 rd   +     149,352 wr)
+==19285== LLd misses:       13,827,633  ( 13,728,162 rd   +      99,471 wr)
+==19285== D1  miss rate:           1.6% (        2.6%     +         0.0%  )
+==19285== LLd miss rate:           1.2% (        1.8%     +         0.0%  )
+==19285== 
+==19285== LL refs:          20,340,263  ( 20,190,911 rd   +     149,352 wr)
+==19285== LL misses:        13,828,727  ( 13,729,256 rd   +      99,471 wr)
+==19285== LL miss rate:            0.4% (        0.4%     +         0.0%  )
+
+
+
+

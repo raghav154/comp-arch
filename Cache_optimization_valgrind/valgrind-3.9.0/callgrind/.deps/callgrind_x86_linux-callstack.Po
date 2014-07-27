@@ -1,0 +1,176 @@
+callgrind_x86_linux-callstack.o: callstack.c global.h \
+ ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h /usr/include/stdlib.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h ../include/pub_tool_vki.h \
+ ../include/vki/vki-linux.h ../include/vki/vki-posixtypes-x86-linux.h \
+ ../include/vki/vki-x86-linux.h ../include/vki/vki-linux-drm.h \
+ ../include/vki/vki-xen.h ../include/vki/vki-xen-x86.h \
+ ../include/vki/vki-xen-domctl.h ../include/vki/vki-xen-sysctl.h \
+ ../include/vki/vki-xen-mmuext.h ../include/vki/vki-xen-memory.h \
+ ../include/vki/vki-xen-evtchn.h ../include/vki/vki-xen-gnttab.h \
+ ../include/vki/vki-xen-version.h ../include/vki/vki-xen-hvm.h \
+ ../include/pub_tool_debuginfo.h ../include/pub_tool_basics.h \
+ ../include/pub_tool_libcbase.h ../include/pub_tool_libcassert.h \
+ ../include/pub_tool_libcfile.h ../include/pub_tool_vki.h \
+ ../include/pub_tool_libcprint.h ../include/pub_tool_libcproc.h \
+ ../include/pub_tool_machine.h ../VEX/pub/libvex.h \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+ ../include/pub_tool_mallocfree.h ../include/pub_tool_options.h \
+ ../include/pub_tool_tooliface.h ../include/pub_tool_errormgr.h \
+ ../include/pub_tool_execontext.h ../include/pub_tool_xarray.h \
+ ../include/pub_tool_clientstate.h ../include/pub_tool_xarray.h events.h \
+ costs.h
+
+global.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-x86-linux.h:
+
+../include/vki/vki-x86-linux.h:
+
+../include/vki/vki-linux-drm.h:
+
+../include/vki/vki-xen.h:
+
+../include/vki/vki-xen-x86.h:
+
+../include/vki/vki-xen-domctl.h:
+
+../include/vki/vki-xen-sysctl.h:
+
+../include/vki/vki-xen-mmuext.h:
+
+../include/vki/vki-xen-memory.h:
+
+../include/vki/vki-xen-evtchn.h:
+
+../include/vki/vki-xen-gnttab.h:
+
+../include/vki/vki-xen-version.h:
+
+../include/vki/vki-xen-hvm.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_basics.h:
+
+../include/pub_tool_libcbase.h:
+
+../include/pub_tool_libcassert.h:
+
+../include/pub_tool_libcfile.h:
+
+../include/pub_tool_vki.h:
+
+../include/pub_tool_libcprint.h:
+
+../include/pub_tool_libcproc.h:
+
+../include/pub_tool_machine.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../include/pub_tool_mallocfree.h:
+
+../include/pub_tool_options.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_xarray.h:
+
+../include/pub_tool_clientstate.h:
+
+../include/pub_tool_xarray.h:
+
+events.h:
+
+costs.h:
